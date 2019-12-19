@@ -1,0 +1,4 @@
+TRUNCATE
+  users,
+  workOuts
+  RESTART IDENTITY CASCADE;
