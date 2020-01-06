@@ -1,4 +1,4 @@
-# Thingful Server
+# WorkOutWF Server
 
 ## Setting Up
 
