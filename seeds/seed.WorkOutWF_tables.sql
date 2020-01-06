@@ -2,7 +2,7 @@ BEGIN;
 
 TRUNCATE
   users,
-  workOuts
+  day_time_user
   RESTART IDENTITY CASCADE;
 
 -- INSERT INTO blogful_users (user_name, full_name, nickname, password)
@@ -27,7 +27,7 @@ VALUES
   ('lexlor', 'Alex Taylor', 'Lex', 'youre@e.com', '$2a$05$J.cTxgvbaWJH4qBGavWXJOZzh3e3gI8/otCVGlbC3.5aftQBhJ0pC'),
   ('wippy', 'Ping Won In', 'Ping', 'imadestuff@stuff.com', '$2a$05$u4.0ZEu6B4PIQNaFwyeKEOcjah2SdOftxBbYT.YgYBmG5AoyPIaVq');
 
-INSERT INTO workOuts (user_id, day_id, time_id)
+INSERT INTO day_time_user (user_id, day_id, time_id)
 VALUES
 (1, 1, 1);
 
