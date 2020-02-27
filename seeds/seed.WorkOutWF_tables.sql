@@ -5,18 +5,6 @@ TRUNCATE
   day_time_user
   RESTART IDENTITY CASCADE;
 
--- INSERT INTO blogful_users (user_name, full_name, nickname, password)
--- VALUES
---   ('dunder', 'Dunder Mifflin', null, 'password'),
---   ('b.deboop', 'Bodeep Deboop', 'Bo', 'bo-password'),
---   ('c.bloggs', 'Charlie Bloggs', 'Charlie', 'charlie-password'),
---   ('s.smith', 'Sam Smith', 'Sam', 'sam-password'),
---   ('lexlor', 'Alex Taylor', 'Lex', 'lex-password'),
---   ('wippy', 'Ping Won In', 'Ping', 'ping-password');
-
--- bcrypt.hash('test-string', 1).then(hash => console.log({ hash }))
-
--- const pws = ['bo-password','charlie-password','sam-password','lex-password','ping-password']
 
 INSERT INTO users (user_name, full_name, nickname, email, password)
 VALUES
@@ -32,3 +20,17 @@ VALUES
 (1, 1, 1);
 
 COMMIT;
+
+
+-- INSERT INTO blogful_users (user_name, full_name, nickname, password)
+-- VALUES
+--   ('dunder', 'Dunder Mifflin', null, 'password'),
+--   ('b.deboop', 'Bodeep Deboop', 'Bo', 'bo-password'),
+--   ('c.bloggs', 'Charlie Bloggs', 'Charlie', 'charlie-password'),
+--   ('s.smith', 'Sam Smith', 'Sam', 'sam-password'),
+--   ('lexlor', 'Alex Taylor', 'Lex', 'lex-password'),
+--   ('wippy', 'Ping Won In', 'Ping', 'ping-password');
+
+-- bcrypt.hash('test-string', 1).then(hash => console.log({ hash }))
+
+-- const pws = ['bo-password','charlie-password','sam-password','lex-password','ping-password']

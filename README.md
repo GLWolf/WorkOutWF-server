@@ -38,3 +38,10 @@ timezone = 'UTC'
 
 - Start application for development: `npm run dev`
 - Run tests: `npm test`
+
+## Technology
+
+- SQL
+- Node.js
+- Express.js
+- Mocha
